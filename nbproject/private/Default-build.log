@@ -1,0 +1,8 @@
+/media/buildserver/404c5eda-3591-4790-8e80-a12e9fc3c08f/santosh_workbook/AL2/buildroot-gcc342/bin/mipsel-linux-gcc -c -D_XOPEN_SOURCE_EXTENDED=1 -D_GNU_SOURCE=1 -D__EXTENSIONS__=1 -D_HPUX_SOURCE=1 -D_POSIX_MAPPED_FILES=1 -D_POSIX_SYNCHRONIZED_IO=1 -DPIC=1 -D_THREAD_SAFE=1 -D_REENTRANT=1 -DNDEBUG -Wall -pedantic -fPIC -fsigned-char -O3 -fomit-frame-pointer -fforce-addr libAlmondDBM.c  -o libAlmondDBM.o
+/media/buildserver/404c5eda-3591-4790-8e80-a12e9fc3c08f/santosh_workbook/AL2/buildroot-gcc342/bin/mipsel-linux-gcc -shared -Wl,-soname,libAlmondDBM.so.1 -o libAlmondDBM.so.1.0 libAlmondDBM.o
+ar rcs libAlmondDBM.a  
+ln -sf libAlmondDBM.so.1.0 libAlmondDBM.so
+ln -sf libAlmondDBM.so.1.0 libAlmondDBM.so.1
+#cp -a libAlmondDBM.so* /lib/lib
+#cp -a libAlmondDBM.so* /lib
+#cp libAlmondDBM.h /lib/almond_include

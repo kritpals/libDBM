@@ -1,0 +1,30 @@
+called: /media/buildserver/404c5eda-3591-4790-8e80-a12e9fc3c08f/santosh_workbook/AL2/buildroot-gcc342/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/../../../../mipsel-linux-uclibc/bin/ld
+	/media/buildserver/404c5eda-3591-4790-8e80-a12e9fc3c08f/santosh_workbook/AL2/libAlmonDBM
+	/media/buildserver/404c5eda-3591-4790-8e80-a12e9fc3c08f/santosh_workbook/AL2/buildroot-gcc342/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/../../../../mipsel-linux-uclibc/bin/ld
+	--eh-frame-hdr
+	-EL
+	-shared
+	-o
+	libAlmondDBM.so.1.0
+	/media/buildserver/404c5eda-3591-4790-8e80-a12e9fc3c08f/santosh_workbook/AL2/buildroot-gcc342/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/../../../../mipsel-linux-uclibc/lib/crti.o
+	/media/buildserver/404c5eda-3591-4790-8e80-a12e9fc3c08f/santosh_workbook/AL2/buildroot-gcc342/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/crtbeginS.o
+	-L/media/buildserver/404c5eda-3591-4790-8e80-a12e9fc3c08f/santosh_workbook/AL2/buildroot-gcc342/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2
+	-L/media/buildserver/404c5eda-3591-4790-8e80-a12e9fc3c08f/santosh_workbook/AL2/buildroot-gcc342/bin/../lib/gcc
+	-L/media/buildserver/404c5eda-3591-4790-8e80-a12e9fc3c08f/santosh_workbook/AL2/buildroot-gcc342/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/../../../../mipsel-linux-uclibc/lib
+	-soname
+	libAlmondDBM.so.1
+	libAlmondDBM.o
+	-lgcc
+	-lc
+	-rpath-link
+	/lib:/usr/lib
+	-lgcc
+	/media/buildserver/404c5eda-3591-4790-8e80-a12e9fc3c08f/santosh_workbook/AL2/buildroot-gcc342/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/crtendS.o
+	/media/buildserver/404c5eda-3591-4790-8e80-a12e9fc3c08f/santosh_workbook/AL2/buildroot-gcc342/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/../../../../mipsel-linux-uclibc/lib/crtn.o
+
+called: ar
+	/media/buildserver/404c5eda-3591-4790-8e80-a12e9fc3c08f/santosh_workbook/AL2/libAlmonDBM
+	ar
+	rcs
+	libAlmondDBM.a
+
